@@ -1,6 +1,6 @@
 # Overview
 
-This is a demo showing how to connect a [Texas Instrument SimpleLink SensorTag] (http://www.ti.com/ww/en/wireless_connectivity/sensortag2015/?INTC=SensorTag&HQS=sensortag) to a [NODE-RED](http://nodered.org/) flow running on IBM Bluemix.
+This is a demo showing how to connect a [Texas Instrument SimpleLink SensorTag] (http://www.ti.com/ww/en/wireless_connectivity/sensortag2015/?INTC=SensorTag&HQS=sensortag) via the [Internet of Things Foundation Service] (https://internetofthings.ibmcloud.com/#/) to a [NODE-RED](http://nodered.org/) flow running on IBM Bluemix.
 
 
 ## Prerequisites
@@ -49,8 +49,10 @@ Next, use [this tutorial](https://developer.ibm.com/recipes/tutorials/connect-a-
 
 ## Things don't work? Here is where to get help
 
-First make sure to consult the documentation. Here is the [link to the general Buemix docs] (https://www.ng.bluemix.net/docs), you'll find the [docs for the IoT Foundation service here] (https://www.ng.bluemix.net/docs/#services/IoT/index.html).
+First make sure to consult the documentation. Here is the [link to the general Buemix docs] (https://www.ng.bluemix.net/docs), you'll find the [docs for the IoT Foundation service here] (https://docs.internetofthings.ibmcloud.com).
 
 If you have technical questions about Bluemix or the IoT Foundation service, head on over to [Stackoverflow] (http://stackoverflow.com/questions/tagged/bluemix) and make sure to tag your question with "Bluemix".
+
+Another good resource is dW Answers, specifically the "Internet of Things" section [here](https://developer.ibm.com/answers/smartspace/internet-of-things).
 
 The [SimpleLink Support Forum] (http://e2e.ti.com/support/wireless_connectivity/f/538) is a great place to get questions answered that pertain directly to the SensorTag itself.
