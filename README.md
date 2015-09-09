@@ -1,27 +1,34 @@
 # Overview
 
-This is a demo showing how to connect a Texas Instrument (TI) Sensor Tag to a node red flow running on IBM Bluemix.
+This is a demo showing how to connect a [Texas Instrument SimpleLink SensorTag] (http://www.ti.com/ww/en/wireless_connectivity/sensortag2015/?INTC=SensorTag&HQS=sensortag) to a [NODE-RED](http://nodered.org/) flow running on IBM Bluemix.
+
+
+## Prerequisites
+
+You will need a TI SimpleLink SensorTag, which can be bought in various online shops for about $25 or [directly from TI](https://store.ti.com/AddToCart_TI.aspx?p=CC2650STK).
+
+Next, use [this tutorial](https://developer.ibm.com/recipes/tutorials/connect-a-cc2650-sensortag-to-the-iot-foundations-quickstart) to get your SensorTag ready to send data to the IBM IoT Foundation, so that we can use it in a Bluemix application.
 
 
 ## Steps to deploy the code to Bluemix
 
 Step 1: If you don't already have a Bluemix account, go to [http://www.bluemix.net] (http://www.bluemix.net) and sign up (it's free).
 
-Step 2: Log into your bluemix account
+Step 2: Log into your bluemix account.
 
-Step 3: Navigate to the Bluemix catalog
+Step 3: Navigate to the Bluemix catalog.
 
-Step 4: Click on the "Internet of Things Foundation Starter" tile
+Step 4: Click on the "Internet of Things Foundation Starter" tile. It's in the "Boilerplate" section towards the top of the catalog.
 
-Step 5: Enter a unique name for your application into the "Name:" field on the right hand side
+Step 5: Enter a unique name for your application into the "Name:" field on the right hand side.
 
-Step 6: Click create to deploy the application on Bluemix
+Step 6: Click "create" to deploy the application on Bluemix.
 
-Step 7: After about a minute, you should see a notice that your application is now running. Click on the blue link at the top, it should be named something like: http://TheNameThatYouChoseInStep5.mybluemix.net
+Step 7: After about a minute, you should see a notice that your application is now running. Click on the blue link at the top, it should be named something like: http://TheNameThatYouChoseInStep5.mybluemix.net .
 
 Step 8: The above should lead you to a page with the title "Node-RED in Bluemix for IBM Internet of Things Foundation". It has a big red button "Go to your NODE-RED flow editor" in the lower right. Click on it.
 
-Step 9: You should now be in your NODE-RED flow editor. It is populated with a few nodes. Mark them all with Ctrl-a and then delete them. We will start with a clean canvas.
+Step 9: You are now be in your NODE-RED flow editor. It is populated with a few nodes. Mark them all with Ctrl-a and then delete them. We will start with a clean canvas.
 
 Step 10: Here is the flow that will connect your TI Sensor Tag with the IoT Foundation service. Select all of the JSON below and copy it into your clipboard.
 
@@ -39,3 +46,10 @@ Step 12: You should now see the imported flow in your NODE-RED editor.
 ![Imported NODE RED Flow](screenshot-node-red-flow.jpg)
 
 Step 13: Once you have imported the flow you will need to double click on the IBM IoT node to open the configuration properties and replace the device ID with the device ID you registered your Sensor Tag with in Bluemix
+
+
+## Things don't work? Here is where to get help
+
+If you have technical questions about Bluemix or the IoT Foundation service, head on over to [Stackoverflow] (http://stackoverflow.com/questions/tagged/bluemix) and make sure to tag your question with "Bluemix".
+
+The [SimpleLink Support Forum] (http://e2e.ti.com/support/wireless_connectivity) is a great place to get questions answered that pertain directly to the SensorTag itself.
