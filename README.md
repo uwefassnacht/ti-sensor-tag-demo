@@ -9,6 +9,7 @@ You will need a TI SimpleLink SensorTag, which can be bought in various online s
 
 Next, use [this tutorial](https://developer.ibm.com/recipes/tutorials/connect-a-cc2650-sensortag-to-the-iot-foundations-quickstart) to get your SensorTag ready to send data to the IBM IoT cloud, so that we can use it in a Bluemix application.
 
+Make sure that you slide the "Sourcing" slider in the smartphone app to the "on" position. You can view the ID of your SensorTag bei either opening the link at the top of the "Cloud View" or using the "share" icon to send it in a mail to yourself. The device ID should an alphanumeric string of 12 characters. You will need it later, specifically in step 13 below.
 
 ## Steps to deploy the code to Bluemix
 
@@ -24,11 +25,11 @@ Next, use [this tutorial](https://developer.ibm.com/recipes/tutorials/connect-a-
 
 **Step 6:** Click "create" to deploy the application on Bluemix.
 
-**Step 7:** After about a minute, you should see a notice that your application is now running. Click on the blue link at the top, it should be named something like: http://TheNameThatYouChoseInStep5.mybluemix.net .
+**Step 7:** After a minute or two, you should see a notice that your application is now running. Click on the blue link at the top, it should be named something like: http://TheNameThatYouChoseInStep5.mybluemix.net .
 
 **Step 8:** The above should lead you to a page with the title "NODE-RED in Bluemix for IBM Internet of Things Foundation". It has a big red button "Go to your NODE-RED flow editor" in the lower right. Click on it.
 
-**Step 9:** You are now be in your NODE-RED flow editor. It is populated with a few nodes. Mark them all with Ctrl-a and then delete them. We will start with a clean canvas.
+**Step 9:** You are now be in your NODE-RED flow editor. It is already populated with a few nodes. Mark them all with Ctrl-a and then delete them (using the backspace key). We will start with a clean canvas.
 
 **Step 10:** Here is the flow that will connect your TI Sensor Tag with the IoT Foundation service. Select all of the JSON below and copy it into your clipboard.
 
@@ -44,7 +45,17 @@ Next, use [this tutorial](https://developer.ibm.com/recipes/tutorials/connect-a-
 
 ![Imported NODE-RED Flow](screenshot-node-red-flow.jpg)
 
-**Step 13:** Once you have imported the flow you will need to double click on the IBM IoT node to open the configuration properties and replace the device ID with the device ID you registered your Sensor Tag with in Bluemix
+**Step 13:** Once you have imported the flow you will need to double click on the IBM IoT node to open the configuration properties and replace the device ID with the device ID of your specific SensorTag (see the Prerequisites section above). Click "Ok" to finish the configuration of the node.
+
+**Step 14:** Click on the red "Deploy" button (upper right) to deploy your flow to Bluemix. You will need to do this each time you change the flow.
+
+**Step 15:** Activate any of the green debug nodes to see data (e.g. temperature or acceleration) flowing from your SensorTag. You will need to click on the "debug" tab on the upper right to see it.
+
+**Done**
+
+You can now play with the various debug nodes on your canvas. Maybe change the threshold values in the yellow nodes or add new nodes to your flow by dragging them in from the palette on the right. Nodes are connected through simple clicking and dragging.
+
+Don't forget to hit the "Deploy" button after every change in the flow and have fun.
 
 
 ## Things don't work? Here is where to get help
