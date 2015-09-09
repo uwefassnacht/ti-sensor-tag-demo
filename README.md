@@ -52,4 +52,4 @@ Step 13: Once you have imported the flow you will need to double click on the IB
 
 If you have technical questions about Bluemix or the IoT Foundation service, head on over to [Stackoverflow] (http://stackoverflow.com/questions/tagged/bluemix) and make sure to tag your question with "Bluemix".
 
-The [SimpleLink Support Forum] (http://e2e.ti.com/support/wireless_connectivity) is a great place to get questions answered that pertain directly to the SensorTag itself.
+The [SimpleLink Support Forum] (http://e2e.ti.com/support/wireless_connectivity/f/538) is a great place to get questions answered that pertain directly to the SensorTag itself.
