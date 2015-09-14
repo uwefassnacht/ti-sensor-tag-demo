@@ -57,9 +57,9 @@ If you **do not have a SensorTag**, you can use any modern smartphone as a "fake
 
 **Done**
 
-You can now play with the various debug nodes on your canvas. Maybe change the threshold values in the yellow nodes or add new nodes to your flow by dragging them in from the palette on the right. Nodes are connected through simple clicking and dragging.
+You can now play with the various debug nodes on your canvas. How about changing the threshold values in the yellow nodes? Or maybe adding new nodes to your flow by dragging them in from the palette on the left? Nodes are connected through simple clicking and dragging.
 
-Don't forget to hit the "Deploy" button after every change in the flow.
+Don't forget to hit the "Deploy" button after every change you make in the flow.
 
 Start playing and have fun!
 
