@@ -7,13 +7,13 @@ This is a demo showing how to connect a [Texas Instrument SimpleLink SensorTag] 
 
 You will need a TI SimpleLink SensorTag, which can be bought in various online shops for about $25 or [directly from TI](https://store.ti.com/AddToCart_TI.aspx?p=CC2650STK).
 
-**Note:** If you do not have a SensorTag, you can use any modern smartphone as a "fake" sensor. Just navigate from your phones browser [to this page here](https://quickstart.internetofthings.ibmcloud.com/iotsensor/). Here is a [link to a short tutorial] (https://developer.ibm.com/recipes/tutorials/use-the-simulated-device-to-experience-the-iot-foundation/) that will give you more background.
-
 Next, use [this tutorial](https://developer.ibm.com/recipes/tutorials/connect-a-cc2650-sensortag-to-the-iot-foundations-quickstart) to get your SensorTag ready to send data to the IBM IoT cloud, so that we can use it in a Bluemix application.
 
 **Note :** If your SensorTag has an older firmware version, you might need to update it in order for the sensors to stream data correctly. This can be done via the smartphone app, version 1.12 (and later) seem to work fine.
 
 Make sure that you slide the "Sourcing" slider in the smartphone app to the "on" position. You can view the ID of your SensorTag bei either opening the link at the top of the "Cloud View" or using the "share" icon to send it in a mail to yourself. The device ID should an alphanumeric string of 12 characters. You will need it later, specifically in step 13 below.
+
+If you **do not have a SensorTag**, you can use any modern smartphone as a "fake" sensor. Just navigate from your phones browser [to this page here](https://quickstart.internetofthings.ibmcloud.com/iotsensor/). The page you just opened will "pretend" to be a temperature and humidity sensor. Here is a [link to a short tutorial] (https://developer.ibm.com/recipes/tutorials/use-the-simulated-device-to-experience-the-iot-foundation/) that will give you more background. The ID of your fake sensor will be displayed on the upper right of the page you opened on your smartphone. It's an alphanumeric string of 12 characters, which you will need later, specifically in step 13 below.
 
 ## Steps to deploy the code to Bluemix
 
@@ -59,7 +59,9 @@ Make sure that you slide the "Sourcing" slider in the smartphone app to the "on"
 
 You can now play with the various debug nodes on your canvas. Maybe change the threshold values in the yellow nodes or add new nodes to your flow by dragging them in from the palette on the right. Nodes are connected through simple clicking and dragging.
 
-Don't forget to hit the "Deploy" button after every change in the flow and have fun.
+Don't forget to hit the "Deploy" button after every change in the flow.
+
+Start playing and have fun!
 
 
 ## Things don't work? Here is where to get help
