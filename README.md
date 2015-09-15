@@ -71,6 +71,8 @@ Don't forget to hit the "Deploy" button after every change you make in the flow.
 
 Start playing and have fun!
 
+There are many NODE-RED flows with interesting and creative ideas out there ([Google is your friend](https://www.google.com/search?q=NODE-RED%20bluemix)). Github has some interesting repos as well, how about [using your SensorTag in an alarm system](https://github.com/chrrel/bluemix-alarm-system)?
+
 
 ## Things don't work? Here is where to get help
 
