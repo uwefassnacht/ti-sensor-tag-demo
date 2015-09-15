@@ -83,3 +83,7 @@ If you have technical questions about Bluemix or the IoT Foundation service, hea
 Another good resource is dW Answers, specifically the "Internet of Things" section [here](https://developer.ibm.com/answers/smartspace/internet-of-things).
 
 The [SimpleLink Support Forum] (http://e2e.ti.com/support/wireless_connectivity/f/538) is a great place to get questions answered that pertain directly to the SensorTag itself.
+
+# License
+
+See [LICENSE](LICENSE) file.
