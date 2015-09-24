@@ -1,6 +1,6 @@
 # Overview
 
-This is a demo showing how to connect a [Texas Instrument SimpleLink SensorTag] (http://www.ti.com/ww/en/wireless_connectivity/sensortag2015/?INTC=SensorTag&HQS=sensortag) via the [Internet of Things Foundation Service] (https://internetofthings.ibmcloud.com/#/) to a [NODE-RED](http://nodered.org/) flow running on IBM Bluemix.
+This is a demo showing how to connect a [Texas Instrument SimpleLink SensorTag] (http://www.ti.com/ww/en/wireless_connectivity/sensortag2015/?INTC=SensorTag&HQS=sensortag) via the [Internet of Things Foundation Service] (https://internetofthings.ibmcloud.com/#/) to a [NODE-RED](http://nodered.org/) flow running on [IBM Bluemix](http://www.bluemix.net).
 
 
 ## Prerequisites
@@ -15,7 +15,7 @@ Make sure that you slide the "Sourcing" slider in the smartphone app to the "on"
 
 If you **do not have a SensorTag**, you can use any modern smartphone as a "fake" sensor. Just navigate from your phones browser [to this page here](https://quickstart.internetofthings.ibmcloud.com/iotsensor/). The page you just opened will "pretend" to be a temperature and humidity sensor. Here is a [link to a short tutorial] (https://developer.ibm.com/recipes/tutorials/use-the-simulated-device-to-experience-the-iot-foundation/) that will give you more background. The ID of your fake sensor will be displayed on the upper right of the page you opened on your smartphone. It's an alphanumeric string of 12 characters, which you will need later, specifically in step 13 below.
 
-## Steps to deploy the code to Bluemix
+## Steps to deploy NODE-RED on Bluemix
 
 **Step 1:** If you don't already have a Bluemix account, go to [http://www.bluemix.net] (http://www.bluemix.net) and sign up (it's free).
 
@@ -34,6 +34,8 @@ If you **do not have a SensorTag**, you can use any modern smartphone as a "fake
 **Step 8:** The above should lead you to a page with the title "NODE-RED in Bluemix for IBM Internet of Things Foundation". It has a big red button "Go to your NODE-RED flow editor" in the lower right. Click on it.
 
 **Step 9:** You are now be in your NODE-RED flow editor. It is already populated with a few nodes. Mark them all with Ctrl-a and then delete them (using the backspace key). We will start with a clean canvas.
+
+## Steps to import the NODE-RED flow
 
 **Step 10:** Here is the flow that will connect your TI Sensor Tag with the IoT Foundation service. Select all of the JSON below and copy it into your clipboard.
 
