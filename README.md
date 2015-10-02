@@ -69,7 +69,7 @@ If you **do not have a SensorTag**, you can use any modern smartphone as a "fake
 
 You can now play with the various debug nodes on your canvas. How about changing the threshold values in the yellow nodes? Or maybe adding new nodes to your flow by dragging them in from the palette on the left? Nodes are connected through simple clicking and dragging.
 
-Don't forget to hit the "Deploy" button after every change you make in the flow.
+Don't forget to hit the "Deploy" button after every change you make in the flow!
 
 Start playing and have fun!
 
@@ -80,7 +80,7 @@ There are many NODE-RED flows with interesting and creative ideas out there ([Go
 
 Maybe your internet connection does not allow websocket traffic (which I've seen when connected within some firewalls or when using hotel Wifi). To check whether websockets work for you, head over [here](http://websocketstest.com/).
 
-First make sure to consult the documentation. Here is the [link to the general Buemix docs] (https://www.ng.bluemix.net/docs), you'll find the [docs for the IoT Foundation service here] (https://docs.internetofthings.ibmcloud.com).
+Before asking questions, make sure to consult the documentation. Here is the [link to the general Buemix docs] (https://www.ng.bluemix.net/docs), you'll find the [docs for the IoT Foundation service here] (https://docs.internetofthings.ibmcloud.com).
 
 If you have technical questions about Bluemix or the IoT Foundation service, head on over to [Stackoverflow] (http://stackoverflow.com/questions/tagged/bluemix) and make sure to tag your question with "Bluemix".
 
