@@ -5,6 +5,8 @@ This is a demo showing how to connect a [Texas Instrument SimpleLink SensorTag] 
 
 ## Prerequisites
 
+<img align="right" src="images/SensorTag.jpg">
+
 You will need a TI SimpleLink SensorTag, which can be bought in various online shops for about $25 or [directly from TI](https://store.ti.com/AddToCart_TI.aspx?p=CC2650STK).
 
 Next, use [this tutorial](https://developer.ibm.com/recipes/tutorials/connect-a-cc2650-sensortag-to-the-iot-foundations-quickstart) to get your SensorTag ready to send data to the IBM IoT cloud, so that we can use it in a Bluemix application.
