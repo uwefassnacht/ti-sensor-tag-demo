@@ -61,7 +61,7 @@ If you **do not have a SensorTag**, you can use any modern smartphone as a "fake
 
 ![Imported NODE-RED Flow](screenshot-node-red-flow.jpg)
 
-**Step 13:** Once you have imported the flow you will need to double click on the IBM IoT node to open the configuration properties and replace the device ID with the device ID of your specific SensorTag (see the Prerequisites section above). Click "Ok" to finish the configuration of the node.
+**Step 13:** Once you have imported the flow you will need to double click on the IBM IoT node (labelled "TI Sensortag" in the screenshot above) to open the configuration properties and replace the device ID with the device ID of your specific SensorTag (see the Prerequisites section above). Click "Ok" to finish the configuration of the node.
 
 **Step 14:** Click on the red "Deploy" button (upper right) to deploy your flow to Bluemix. You will need to do this each time you change the flow.
 
