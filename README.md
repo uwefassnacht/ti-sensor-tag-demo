@@ -97,4 +97,4 @@ The [SimpleLink Support Forum] (http://e2e.ti.com/support/wireless_connectivity/
 
 See [LICENSE](LICENSE) file.
 
-[issues_url]: /issues
+[issues_url]: https://github.com/uwefassnacht/ti-sensor-tag-demo/issues
