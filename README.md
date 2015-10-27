@@ -77,6 +77,9 @@ Start playing and have fun!
 
 There are many Node-RED flows with interesting and creative ideas out there ([Google is your friend](https://www.google.com/search?q=NODE-RED%20bluemix)). Github has some interesting repos as well, how about [using your SensorTag in an alarm system](https://github.com/chrrel/bluemix-alarm-system)? Last but not least, the Node-RED website has a [collection of user-provided flows and nodes](http://flows.nodered.org/) as well.
 
+## Contribute
+We are more than happy to accept external contributions to this project, be it in the form of issues and pull requests. If you find a bug, please report it via the [Issues section][issues_url] or even better, fork the project and submit a pull request with your fix! Pull requests will be evaulated on an individual basis based on value add to the sample application.
+
 
 ## Things don't work? Here is where to get help
 
@@ -93,3 +96,5 @@ The [SimpleLink Support Forum] (http://e2e.ti.com/support/wireless_connectivity/
 # License
 
 See [LICENSE](LICENSE) file.
+
+[issues_url]: issues
