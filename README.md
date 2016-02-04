@@ -75,7 +75,14 @@ Don't forget to hit the "Deploy" button after every change you make in the flow!
 
 Start playing and have fun!
 
-There are many Node-RED flows with interesting and creative ideas out there ([Google is your friend](https://www.google.com/search?q=NODE-RED%20bluemix)). Github has some interesting repos as well, how about [using your SensorTag in an alarm system](https://github.com/chrrel/bluemix-alarm-system)? Last but not least, the Node-RED website has a [collection of user-provided flows and nodes](http://flows.nodered.org/) as well.
+There are many Node-RED flows with interesting and creative ideas out there ([Google is your friend](https://www.google.com/search?q=NODE-RED%20bluemix)).
+
+Maybe you'd like to publish your sensor data via a REST API? Or display it on a beautiful dashboard? [Here is a good tutorial](https://www.hackster.io/adrianf/create-a-multi-tasking-iot-wi-fi-sensor-9d7fdf), showing you exactly how it's done (make sure to start at Step 4).
+
+Or head on over to Github, where you'll find many interesting repos. How about [using your SensorTag in an alarm system](https://github.com/chrrel/bluemix-alarm-system)?
+
+Last but not least, the Node-RED website has a [collection of user-provided flows and nodes](http://flows.nodered.org/) as well.
+
 
 ## Contribute
 We are more than happy to accept external contributions to this project, be it in the form of issues and pull requests. If you find a bug, please report it via the [Issues section][issues_url] or even better, fork the project and submit a pull request with your fix! Pull requests will be evaulated on an individual basis based on value add to the sample application.
