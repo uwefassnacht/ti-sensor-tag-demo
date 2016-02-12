@@ -1,8 +1,8 @@
-# Overview
+## Overview
 
 This is a demo showing how to connect a [Texas Instrument SimpleLink SensorTag] (http://www.ti.com/ww/en/wireless_connectivity/sensortag2015/?INTC=SensorTag&HQS=sensortag) via the [Internet of Things Foundation Service] (https://internetofthings.ibmcloud.com/#/) to a [Node-RED](http://nodered.org/) flow running on [IBM Bluemix](http://www.bluemix.net).
 
-## Architectural Overview
+## Architecture
 
 The TI SensorTag connects via Bluetooth to an app on your smartphone. Your phone, in turn, is connected via Wifi or cellular data to the internet and transmits the SensorTag data into an application running on IBM Bluemix.
 
