@@ -2,6 +2,9 @@
 
 This is a demo showing how to connect a [Texas Instrument SimpleLink SensorTag] (http://www.ti.com/ww/en/wireless_connectivity/sensortag2015/?INTC=SensorTag&HQS=sensortag) via the [Internet of Things Foundation Service] (https://internetofthings.ibmcloud.com/#/) to a [Node-RED](http://nodered.org/) flow running on [IBM Bluemix](http://www.bluemix.net).
 
+## Architectural Overview
+
+<img align="center" src="images/architecture-diagram.jpg">
 
 ## Prerequisites
 
@@ -51,15 +54,15 @@ If you **do not have a SensorTag**, you can use any modern smartphone as a "fake
 
 - Navigate to "Import" and then "Clipboard"
 
-![Importing from clipboard](import-from-clipboard.jpg)
+![Importing from clipboard](images/import-from-clipboard.jpg)
 
 - Paste the content of your clipboard (which should contain the flow that you copied in step 10 above) into the window and click on "Ok"
 
-![Paste flow into this window](import-window.jpg)
+![Paste flow into this window](images/import-window.jpg)
 
 **Step 12:** You should now see the imported flow in your Node-RED editor.
 
-![Imported NODE-RED Flow](screenshot-node-red-flow.jpg)
+![Imported NODE-RED Flow](images/screenshot-node-red-flow.jpg)
 
 **Step 13:** Once you have imported the flow you will need to double click on the IBM IoT node (labelled "TI Sensortag" in the screenshot above) to open the configuration properties and replace the device ID with the device ID of your specific SensorTag (see the Prerequisites section above). Click "Ok" to finish the configuration of the node.
 
