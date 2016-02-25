@@ -80,13 +80,15 @@ Don't forget to hit the "Deploy" button after every change you make in the flow!
 
 Start playing and have fun!
 
-There are many Node-RED flows with interesting and creative ideas out there ([Google is your friend](https://www.google.com/search?q=NODE-RED%20bluemix)).
+## Next Steps
+
+You might want to secure your Node-RED flow with a password or add more nodes to the palette. [This page](https://console.ng.bluemix.net/docs/starters/IoT/iot500.html#iot500) explains how it's done.
+
+To search for new nodes to integrate, head over to the [Node-RED website](http://flows.nodered.org). The page also has a collection of interesting flows, which can easily be mixed and matched with your ideas.
 
 Maybe you'd like to publish your sensor data via a REST API? Or display it on a beautiful dashboard? [Here is a good tutorial](https://www.hackster.io/adrianf/create-a-multi-tasking-iot-wi-fi-sensor-9d7fdf), showing you exactly how it's done (make sure to start at Step 4).
 
 Or head on over to Github, where you'll find many interesting repos. How about [using your SensorTag in an alarm system](https://github.com/chrrel/bluemix-alarm-system)?
-
-Last but not least, the Node-RED website has a [collection of user-provided flows and nodes](http://flows.nodered.org/) as well.
 
 
 ## Contribute
