@@ -92,14 +92,16 @@ Or head on over to Github, where you'll find many interesting repos. How about [
 
 
 ## Contribute
-We are more than happy to accept external contributions to this project, be it in the form of issues and pull requests. If you find a bug, please report it via the [Issues section][issues_url] or even better, fork the project and submit a pull request with your fix! Pull requests will be evaulated on an individual basis based on value add to the sample application.
+I'm more than happy to accept external contributions to this project, be it in the form of issues or pull requests.
+
+If you find a bug, please report it via the [Issues section][issues_url] or even better, fork the project and submit a pull request with your fix!
 
 
 ## Things don't work? Here is where to get help
 
 Maybe your internet connection does not allow websocket traffic (which I've seen when connected within some firewalls or when using hotel Wifi). To check whether websockets work for you, head over [here](http://websocketstest.com/).
 
-Before asking questions, make sure to consult the documentation. Here is the [link to the general Buemix docs] (https://www.ng.bluemix.net/docs), you'll find the [docs for the IoT Foundation service here] (https://docs.internetofthings.ibmcloud.com).
+Before asking questions, make sure to consult the documentation. Here is the [link to the general Bluemix docs] (https://www.ng.bluemix.net/docs), you'll find the [docs for the IoT Foundation service here] (https://docs.internetofthings.ibmcloud.com).
 
 If you have technical questions about Bluemix or the IoT Foundation service, head on over to [Stackoverflow] (http://stackoverflow.com/questions/tagged/bluemix) and make sure to tag your question with "Bluemix".
 
